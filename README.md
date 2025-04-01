@@ -1,9 +1,15 @@
-# App Pix Flask
+# 🚀 App PIX - Flask API
 
-Este projeto implementa um sistema de pagamento utilizando Pix, com criação de QR Code e confirmação de pagamentos via API. Ele utiliza Flask para o backend, SQLAlchemy para o gerenciamento de banco de dados e Flask-SocketIO para comunicação em tempo real.
+Aplicação para processamento de transações PIX desenvolvida com Flask, seguindo princípios de arquitetura limpa e boas práticas de APIs RESTful.
 
-## Funcionalidades
+## 🛠 Stack Tecnológica
+- **🔥 Flask** (Framework web)
+- **🗄️ SQLAlchemy** (ORM para banco de dados)
+- **🔒 PyJWT** (Autenticação)
+- **📦 Pydantic** (Validação de dados)
 
-- Criação de pagamento com Pix e geração de QR Code.
-- Confirmação de pagamento via API.
-- Interface para visualização de pagamentos e QR Codes.
+## 💡 Principais Funcionalidades
+✔️ Criação de transações PIX  
+✔️ Webhooks para notificações  
+✔️ Logging detalhado  
+
